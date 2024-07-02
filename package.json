@@ -3,12 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dr-white004.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
+    
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
@@ -29,5 +28,4 @@
     "tailwindcss": "^3.2.4",
     "vite": "^4.5.3"
   }
-  
 }

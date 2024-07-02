@@ -3,8 +3,8 @@ import img1 from "../assets/images/project-img1.png";
 import img2 from "../assets/images/project-img2.png";
 import img3 from "../assets/images/project-img3.png";
 import bg from "../assets/images/bg.jpg"
-import cs50w from "../assets/images/cs50w.png"
-import cs50x from "../assets/images/cs50x.png"
+import cs50w from "../assets/images/CS50w.png"
+import cs50x from "../assets/images/CS50x.png"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
