@@ -1,6 +1,12 @@
+
 .navbar {
   background-color: #ffffff;
-margin: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0.5rem 1rem; 
+  flex-wrap: nowrap; 
 }
 
 .navbar-image {
@@ -14,33 +20,43 @@ margin: 0px;
 .navbar-brand {
   color: #3F00FF !important; 
   font-weight: bold;
+  white-space: nowrap; 
 }
 
 .navbar-brand:hover {
-  color: #7CFC00; 
-
+  color: #7CFC00;
 }
 
 .navbar .nav-link {
-  
-  color:#3F00FF !important;
+  color: #3F00FF !important;
   font-weight: bold;
   transition: color 0.3s ease;
+  white-space: nowrap; 
 }
 
-
-
-.nav-link:hover
- {
+.nav-link:hover {
   color: #7CFC00 !important; 
 }
 
-
-
 .navbar-toggler {
-  border-color: #3F00FF; 
+  border-color: #3F00FF;
 }
 
 .navbar-toggler-icon {
   background-color: #3F00FF;
+  padding: 0.3rem; 
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem; 
+  }
+
+  .navbar-brand {
+    font-size: 1rem; 
+  }
+
+  .navbar .nav-link {
+    font-size: 0.9rem; 
+  }
 }
