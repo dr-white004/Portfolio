@@ -1,0 +1,46 @@
+.navbar {
+  background-color: #ffffff;
+margin: 0px;
+}
+
+.navbar-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.navbar-brand {
+  color: #3F00FF !important; 
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #7CFC00; 
+
+}
+
+.navbar .nav-link {
+  
+  color:#3F00FF !important;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+
+
+.nav-link:hover
+ {
+  color: #7CFC00 !important; 
+}
+
+
+
+.navbar-toggler {
+  border-color: #3F00FF; 
+}
+
+.navbar-toggler-icon {
+  background-color: #3F00FF;
+}
