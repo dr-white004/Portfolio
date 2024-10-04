@@ -1,12 +1,6 @@
-
 .navbar {
-  background-color: #ffffff;
-  margin: 0px;
-  display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  padding: 0.5rem 1rem; 
-  flex-wrap: nowrap; 
+  background-color: #ffffff; /* White background */
+  transition: background-color 0.3s ease;
 }
 
 .navbar-image {
@@ -20,43 +14,23 @@
 .navbar-brand {
   color: #3F00FF !important; 
   font-weight: bold;
-  white-space: nowrap; 
 }
 
 .navbar-brand:hover {
-  color: #7CFC00;
+  color: #90EE90; 
 }
 
-.navbar .nav-link {
-  color: #3F00FF !important;
+.nav-link {
+  color: #3F00FF !important; 
   font-weight: bold;
   transition: color 0.3s ease;
-  white-space: nowrap; 
 }
 
 .nav-link:hover {
-  color: #7CFC00 !important; 
+  color: #90EE90 !important; 
 }
 
-.navbar-toggler {
-  border-color: #3F00FF;
-}
 
 .navbar-toggler-icon {
-  background-color: #3F00FF;
-  padding: 0.3rem; 
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    padding: 0.5rem; 
-  }
-
-  .navbar-brand {
-    font-size: 1rem; 
-  }
-
-  .navbar .nav-link {
-    font-size: 0.9rem; 
-  }
+  background-color: #87CEFA; 
 }

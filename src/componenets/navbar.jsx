@@ -28,7 +28,7 @@ function NavigationBar() {
     <Navbar bg="light" expand="lg" fixed="top" ref={navbarRef} expanded={expanded} className="navbar">
     <Container>
       <img src={pixx} alt="Profile" className="navbar-image" />
-      <Navbar.Brand href="#home" className="navbar-brand custom-brand">Ademola Abdulkareem</Navbar.Brand>
+      <Navbar.Brand href="#home" className="navbar-brand custom-brand">Ademola </Navbar.Brand>
       <Navbar.Toggle onClick={handleToggle} aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
