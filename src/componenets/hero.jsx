@@ -25,10 +25,8 @@ function HeroSection() {
        
         <div className="icon-container d-none d-md-flex"> {/* a little tricky */}
        
-          <a href="www.linkedin.com/in/ademola-abdulkareem-166029243" target="_blank" rel="noopener noreferrer">
-
-          <FaLinkedin className="icon" />
-          </a>
+        <a href="https://www.linkedin.com/in/ademola-abdulkareem-166029243/" target="_blank" rel="noopener noreferrer">  <FaLinkedin className="icon" /> </a>
+        
           <a href="https://github.com/dr-white004/" target="_blank" rel="noopener noreferrer">
 
           <FaGithub className="icon" />

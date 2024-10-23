@@ -3,7 +3,7 @@ import { Container, Row, Col, Button, Modal, Carousel } from 'react-bootstrap';
 import '../styling/about.css'; 
 import cs50w from '../assets/images/CS50W.png';
 import cs50x from '../assets/images/CS50x.png'; 
-import cv from '../assets/pdf/ADEMOLA ABDULKAREEM-RESUME.pdf';
+import cv from '../assets/pdf/ADEMOLA ABDULKAREEM resume.pdf';
 
 function AboutMeSection() {
   const [showCvModal, setShowCvModal] = useState(false);
