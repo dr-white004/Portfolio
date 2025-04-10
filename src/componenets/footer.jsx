@@ -22,7 +22,7 @@ function Footer() {
             <h5>Reach out</h5>
              <p> <a href="mailto:dr.white004@gmail.com">dr.white004@gmail.com</a></p> 
             <div className="social-icons" id='sepa'>
-            <a href="https://www.linkedin.com/in/ademola-abdulkareem-166029243/" target="_blank" rel="noopener noreferrer">  <FaLinkedin className="icon" /> </a>
+            <a href="www.linkedin.com/in/ademola-abdulkareem-7a5086282" target="_blank" rel="noopener noreferrer">  <FaLinkedin className="icon" /> </a>
             <a href="https://github.com/dr-white004/" target="_blank" rel="noopener noreferrer"> <FaGithub className="icon" /></a>
             <a href="https://twitter.com/AdemolaAbdulka7" target="_blank" rel="noopener noreferrer"><FaTwitter className="icon" /></a>
             </div>
